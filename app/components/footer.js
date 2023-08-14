@@ -12,17 +12,17 @@ const Footer = () => {
         <div className="flex gap-20">
           <div className="flex flex-col gap-4">
             <h4 className="font-bold text-sm">Company </h4>
-            <p>About </p>
-            <p>Features</p>
-            <p>Works</p>
-            <p>Career </p>
+            <p className="font-normal text-xs">About </p>
+            <p className="font-normal text-xs">Features</p>
+            <p className="font-normal text-xs">Works</p>
+            <p className="font-normal text-xs">Career </p>
           </div>
           <div className="flex flex-col gap-4">
             <h4 className="font-bold text-sm">Help</h4>
-            <p>Customer Support</p>
-            <p>Free eBooks</p>
-            <p>Terms & Conditions</p>
-            <p>Privacy Policy </p>
+            <p className="font-normal text-xs">Customer Support</p>
+            <p className="font-normal text-xs">Free eBooks</p>
+            <p className="font-normal text-xs">Terms & Conditions</p>
+            <p className="font-normal text-xs">Privacy Policy </p>
           </div>
         </div>
 

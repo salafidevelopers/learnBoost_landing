@@ -13,18 +13,18 @@ const Testimonial = () => {
         </h1>
         <p>
           Join our growing community of happy learners and unlock the full
-          potential of your child's <br /> education with LearnBoost.{" "}
+          potential of your child&apos;s <br /> education with LearnBoost.{" "}
         </p>
       </div>
       <div className="flex justify-center items-center gap-20 mt-20">
         <Image src={learnboost_testimonial} alt="" />
         <div className="bg-[#E8FFEA] space-y-20 p-12 h-full rounded-lg">
           <p>
-            As a teacher, I've noticed a remarkable improvement in my students'
-            enthusiasm for learning. The engaging lessons and interactive games
-            have sparked a genuine interest in learning. LearnBoost's
-            personalized learning paths have helped each child unlock their
-            potential and excel in their studies."
+            As a teacher, I&apos;ve noticed a remarkable improvement in my
+            students&apos; enthusiasm for learning. The engaging lessons and
+            interactive games have sparked a genuine interest in learning.
+            LearnBoost&apos;s personalized learning paths have helped each child
+            unlock their potential and excel in their studies.
           </p>
           <div className="flex items-center justify-between">
             <p className="font-bold text-xl">

@@ -23,7 +23,7 @@ const Career = () => {
             <p>
               Every child is unique, and so is their learning journey.
               LearnBoost offers personalized learning paths that adapt to your
-              child's pace and learning style.
+              child&apos;s pace and learning style.
             </p>
           </div>
           <div className="space-y-3">

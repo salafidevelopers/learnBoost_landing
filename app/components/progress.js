@@ -39,9 +39,10 @@ const Progress = () => {
             Track Progress and Celebrate Achievements
           </h1>
           <p>
-            As a parent, you will be delighted to track your child's progress
-            through our easy-to-use dashboard. Watch as your little one achieves
-            milestones and earns badges, celebrating every step of the way.
+            As a parent, you will be delighted to track your child&apos;s
+            progress through our easy-to-use dashboard. Watch as your little one
+            achieves milestones and earns badges, celebrating every step of the
+            way.
           </p>
         </div>
 

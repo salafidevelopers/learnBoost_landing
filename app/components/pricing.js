@@ -37,7 +37,7 @@ const Pricing = () => {
         </h1>
         <p>
           We are confident that LearnBoost will exceed your expectations.
-          However, your child's <br /> satisfaction is our top priority.
+          However, your child&apos;s <br /> satisfaction is our top priority.
         </p>
       </div>
       <div className="flex justify-center items-center gap-10 mt-24">
