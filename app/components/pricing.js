@@ -40,7 +40,7 @@ const Pricing = () => {
           However, your child&apos;s <br /> satisfaction is our top priority.
         </p>
       </div>
-      <div className="flex justify-center items-center gap-10 mt-24">
+      <div className="flex flex-col md:flex-row md:justify-center md:items-center gap-10 mt-24">
         {pricingData.map((data) => (
           <div
             key={data.price}
@@ -48,8 +48,12 @@ const Pricing = () => {
           >
             <div className="space-y-3">
               <div className="space-x-4">
-                <span className="text-5xl font-bold">{data.price}</span>
-                <span className="text-base font-normal">{data.duration}</span>
+                <span className="text-3xl lg:text-5xl font-bold">
+                  {data.price}
+                </span>
+                <span className="text-sm lg:text-base font-normal">
+                  {data.duration}
+                </span>
               </div>
               <p>{data.details}</p>
             </div>

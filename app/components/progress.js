@@ -32,7 +32,7 @@ const Progress = () => {
   const [successData, setSuccessData] = useState(SUCCESS_DATA);
 
   return (
-    <div className="flex p-20 ">
+    <div className="flex flex-col md:flex-row p-20 ">
       <div className="space-y-5">
         <div className="space-y-5">
           <h1 className="font-bold text-5xl">

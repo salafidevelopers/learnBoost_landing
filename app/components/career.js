@@ -5,7 +5,7 @@ import curicullum from "../../public/curicullum.png";
 
 const Career = () => {
   return (
-    <div className="bg-[#1F2029] flex items-center justify-between gap-10 p-7">
+    <section className="bg-[#1F2029] grid md:grid-cols-2 md:grid-rows-1 gap-10 p-7">
       <Image src={careerimg} alt="" />
       <div className="text-white space-y-5">
         <h2 className="font-bold text-3xl">
@@ -37,7 +37,7 @@ const Career = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

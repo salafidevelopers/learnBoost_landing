@@ -40,7 +40,7 @@ const Features = () => {
           fingertips!
         </p>
       </div>
-      <div className="flex items-center justify-between gap-10">
+      <div className="flex items-center justify-between flex-wrap gap-10 md:flex-nowrap	">
         {featureData.map((data) => (
           <div key={data.title}>
             <div className="space-y-4  cursor-pointer p-5 hover:shadow-lg">

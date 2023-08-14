@@ -5,7 +5,7 @@ import learnboost_testimonial from "../../public/learnboost_testimonial.png";
 
 const Testimonial = () => {
   return (
-    <section className="p-10">
+    <section className=" p-10">
       <div className="text-center space-y-3">
         <h1 className="font-bold text-5xl ">
           Hear from Our Happy <br />
@@ -16,7 +16,7 @@ const Testimonial = () => {
           potential of your child&apos;s <br /> education with LearnBoost.{" "}
         </p>
       </div>
-      <div className="flex justify-center items-center gap-20 mt-20">
+      <div className="flex flex-col md:flex-row md:justify-center md:items-center gap-20 mt-20">
         <Image src={learnboost_testimonial} alt="" />
         <div className="bg-[#E8FFEA] space-y-20 p-12 h-full rounded-lg">
           <p>
