@@ -8,7 +8,7 @@ import instagram from "../../public/instagram.png";
 const Footer = () => {
   return (
     <footer className="bg-[#1E293B] p-10 grid grid-cols-1 grid-row-2 gap-20 py-20">
-      <div className="flex justify-between text-white ">
+      <div className="flex flex-col gap-20 md:flex-row md:justify-between text-white ">
         <div className="flex gap-20">
           <div className="flex flex-col gap-4">
             <h4 className="font-bold text-sm">Company </h4>
