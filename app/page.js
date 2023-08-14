@@ -1,5 +1,6 @@
 import Career from "./components/career";
 import Features from "./components/features";
+import Footer from "./components/footer";
 import HeroSection from "./components/hero";
 import Impressions from "./components/impressions";
 import NavBar from "./components/navbar";
@@ -20,6 +21,7 @@ export default function Home() {
       <Pricing />
       <Testimonial />
       <Programme />
+      <Footer />
     </main>
   );
 }
