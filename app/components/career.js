@@ -1,12 +1,25 @@
 import Image from "next/image";
 import careerimg from "../../public/careerimg.png";
+import careerphone from "../../public/careerphone.png";
 import share from "../../public/share.png";
 import curicullum from "../../public/curicullum.png";
 
 const Career = () => {
   return (
-    <section className="bg-[#1F2029] grid md:grid-cols-2 md:grid-rows-1 gap-10 p-7">
-      <Image src={careerimg} alt="" />
+    <section className="bg-[#1F2029] pt-12 grid md:grid-cols-2 md:grid-rows-1 gap-10 px-7">
+      <div className="relative">
+        <Image
+          src={careerimg}
+          alt=""
+          className="order-last md:order-first md:self-end "
+        />
+        <Image
+          src={careerphone}
+          alt=""
+          className="order-last md:order-first md:self-end absolute lg:top-[11.5px] lg:left-12 md:w-[422px]"
+        />
+      </div>
+
       <div className="text-white space-y-5">
         <h2 className="font-bold text-3xl">
           Accelerate Your Career and Personal Growth

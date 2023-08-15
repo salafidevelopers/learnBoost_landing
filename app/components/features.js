@@ -30,9 +30,10 @@ const FEATURE_DATA = [
 const Features = () => {
   const [featureData, setFeatureData] = useState(FEATURE_DATA);
   return (
-    <div className="p-10">
-      <div className="text-center p-20 space-y-4">
-        <h1 className="font-bold text-5xl">
+    <div className="p-5 py-15 md:p-10 py-10">
+      <div className="text-center md:text-left  p-20 space-y-4">
+        <h1 className="font-semibold text-5xl md:font-bold md:text-6xl font[Plus Jakarta Sans] ">
+          {" "}
           A brief description of how it works <br /> Boost apart from others
         </h1>
         <p className="font-normal text-base">

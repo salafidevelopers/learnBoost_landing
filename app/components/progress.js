@@ -3,6 +3,8 @@
 import Image from "next/image";
 import progressimg from "../../public/progressimg.png";
 import successicon from "../../public/successicon.png";
+import progressphonebuttom from "../../public/progressphonebuttom.png";
+import progressphonetop from "../../public/progressphonetop.png";
 import { useState } from "react";
 
 const SUCCESS_DATA = [
@@ -32,9 +34,9 @@ const Progress = () => {
   const [successData, setSuccessData] = useState(SUCCESS_DATA);
 
   return (
-    <div className="flex flex-col md:flex-row p-20 ">
+    <div className="flex flex-col gap-5 md:grid grid-cols-1 md:gap-5 lg:grid-cols-2 grid-rows-1 p-20 ">
       <div className="space-y-5">
-        <div className="space-y-5">
+        <div className="space-y-10">
           <h1 className="font-bold text-5xl">
             Track Progress and Celebrate Achievements
           </h1>
@@ -56,8 +58,19 @@ const Progress = () => {
           ))}
         </div>
       </div>
-      <div>
+      <div className="relative">
         <Image src={progressimg} alt="" />
+
+        <Image
+          src={progressphonebuttom}
+          alt=""
+          className="w-52 md:w-[450px] absolute top-0 md:top-4 "
+        />
+        <Image
+          src={progressphonetop}
+          alt=""
+          className="w-40 md:w-[350px] absolute top-0 md:top-0 left-24 md:left-52 "
+        />
       </div>
     </div>
   );
