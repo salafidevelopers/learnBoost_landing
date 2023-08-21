@@ -21,10 +21,10 @@ const Career = () => {
       </div>
 
       <div className="text-white space-y-5 order-first md:self-end">
-        <h2 className="font-bold text-3xl">
+        <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
           Accelerate Your Career and Personal Growth
-        </h2>
-        <p className="font-normal text-base">
+        </h1>
+        <p className="font-light text-sm md:font-medium md:text-lg">
           Learning becomes effective when it feels like play! Our app includes
           educational games and quizzes that turn lessons into exciting
           challenges, encouraging kids to learn while having fun.

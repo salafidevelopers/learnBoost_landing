@@ -2,10 +2,12 @@ import React from "react";
 
 const Programme = () => {
   return (
-    <section className="bg-[#267D2F] py-20 text-white">
+    <section className="bg-[#267D2F] py-20 text-white p-10 space-y-5">
       <div className="text-center mb-10">
-        <h1 className="font-bold text-5xl mb-5">Join our Affiliate Program</h1>
-        <p>
+        <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
+          Join our Affiliate Program
+        </h1>
+        <p className="font-light text-sm md:font-medium md:text-lg">
           Join our affiliate program and become a part of the LearnBoost success
           story! <br /> As an affiliate partner, you can earn generous
           commissions while promoting our <br /> innovative learning mobile app
@@ -17,7 +19,7 @@ const Programme = () => {
           <input
             type="email"
             placeholder="Enter your email"
-            className="border-none pr-24 py-2 focus:ring-0 round-sm w-full"
+            className="border-none px-2 py-2 focus:ring-0 round-sm w-full"
           />
           <button className="bg-[#2B2828] text-white px-4 py-2 rounded-md">
             Subscribe

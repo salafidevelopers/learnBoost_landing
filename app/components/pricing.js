@@ -31,11 +31,11 @@ const Pricing = () => {
   return (
     <div className="p-20">
       <div className="text-center space-y-3">
-        <h1 className="font-bold text-5xl ">
+        <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
           Simple, easy pricing plans <br />
           for the application
         </h1>
-        <p>
+        <p className="font-light text-sm md:font-medium md:text-lg">
           We are confident that LearnBoost will exceed your expectations.
           However, your child&apos;s <br /> satisfaction is our top priority.
         </p>

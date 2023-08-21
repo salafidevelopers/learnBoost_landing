@@ -7,11 +7,11 @@ const Testimonial = () => {
   return (
     <section className=" p-10">
       <div className="text-center space-y-3">
-        <h1 className="font-bold text-5xl ">
+        <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
           Hear from Our Happy <br />
           Learners
         </h1>
-        <p>
+        <p className="font-light text-sm md:font-medium md:text-lg">
           Join our growing community of happy learners and unlock the full
           potential of your child&apos;s <br /> education with LearnBoost.{" "}
         </p>

@@ -37,10 +37,10 @@ const Progress = () => {
     <div className="flex flex-col gap-5 md:grid grid-cols-1 md:gap-5 lg:grid-cols-2 grid-rows-1 p-20 ">
       <div className="space-y-5">
         <div className="space-y-10">
-          <h1 className="font-bold text-5xl">
+          <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
             Track Progress and Celebrate Achievements
           </h1>
-          <p>
+          <p className="font-light text-sm md:font-medium md:text-lg">
             As a parent, you will be delighted to track your child&apos;s
             progress through our easy-to-use dashboard. Watch as your little one
             achieves milestones and earns badges, celebrating every step of the
