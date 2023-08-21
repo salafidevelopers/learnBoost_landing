@@ -6,7 +6,7 @@ import curicullum from "../../public/curicullum.png";
 
 const Career = () => {
   return (
-    <section className="bg-[#1F2029] pt-12 grid md:grid-cols-2 md:grid-rows-1 gap-10 px-7">
+    <section className="bg-[#1F2029] pt-12 grid lg:grid-cols-2 lg:grid-rows-1 gap-10 px-7">
       <div className="relative">
         <Image
           src={careerimg}
@@ -16,11 +16,11 @@ const Career = () => {
         <Image
           src={careerphone}
           alt=""
-          className="order-last md:order-first md:self-end absolute lg:top-[11.5px] lg:left-12 md:w-[422px]"
+          className=" absolute top-[12.7px] left-6 md:top-5 md:left-12 lg:top-[11.5px] lg:left-12 w-60 md:w-[422px]"
         />
       </div>
 
-      <div className="text-white space-y-5">
+      <div className="text-white space-y-5 order-first md:self-end">
         <h2 className="font-bold text-3xl">
           Accelerate Your Career and Personal Growth
         </h2>

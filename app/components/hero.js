@@ -6,12 +6,12 @@ import appstore from "../../public/appstore.png";
 
 const HeroSection = () => {
   return (
-    <section className="grid text-center  md:text-left md:grid-cols-2 md:grid-rows-1	p-10 py-20">
+    <section className="grid text-center md:text-left md:grid-cols-2 md:grid-rows-1	p-10 py-20">
       <div className="space-y-14 mb-8">
-        <h1 className="font-semibold text-5xl md:font-bold md:text-6xl font[Plus Jakarta Sans] ">
+        <h1 className="font-medium text-4xl md:font-semibold md:text-6xl lg:font-bold font[Plus Jakarta Sans] ">
           Introducing LearnBoost: The Ultimate Learning Mobile App
         </h1>
-        <p className="font-normal text-base md:font-medium md:text-lg">
+        <p className="font-light text-sm md:font-medium md:text-lg">
           Are you ready to take your learning journey to new heights? Welcome to
           LearnBoost, the ultimate mbile app that empowers you to expand your
           knowledge,
